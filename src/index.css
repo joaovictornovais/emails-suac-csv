@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  h1 {
+    font-family: 'Geologica'
+  }
+  html {
+    font-family: 'Inter';
+  }
+  h2 {
+    text-transform: uppercase;
+    color: #002c66;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+
+  .inputArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
