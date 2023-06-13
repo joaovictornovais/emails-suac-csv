@@ -24,8 +24,9 @@
 ### Como criar um novo tópico para o formulário?
 1. Crie um novo componente em `.src/components`
 2. No arquivo `App.js`, procure a const `formTemplate` e adicione a nova chave + valor
-3. Ainda em `App.js`, procure a const `form` e instancie o novo componente com as props: `data={data} updateFieldHandler={updateFieldHandler}`
-4. Entre no arquivo do novo componente, passes as props `{ data, updateFieldHandler }` e atribua-os aos inputs, como no exemplo abaixo:
+    - Exemplo: `feedback`: ``
+4. Ainda em `App.js`, procure a const `form` e instancie o novo componente com as props: `data={data} updateFieldHandler={updateFieldHandler}`
+5. Entre no arquivo do novo componente, passe as props `{ data, updateFieldHandler }` e atribua-os aos inputs, como no exemplo abaixo:
 ```js
 import React from 'react'
 
